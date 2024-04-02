@@ -1,0 +1,185 @@
+/*
+ms-auto:go to the right
+me-auto: go to the left
+mx-auto: centered 
+ */
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway",
+        sans-serif;
+}
+
+.navbar {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    position: fixed;
+    width: 80%;
+    border-radius: 30px;
+}
+
+.nav-link {
+    margin-right: 15px;
+}
+
+.hero-page {
+    height: 120vh;
+    background-image: url(../images/banner-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-first {
+    height: 60%;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    color: aliceblue;
+}
+
+.hero-text p {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.hero-button {
+    background-color: rgb(255, 0, 195);
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.hero-cerd {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    background-color: aliceblue;
+    margin-left: 45px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+.hero-card-img {
+    width: 80px;
+    height: 80px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.about {
+    margin-top: 100px;
+
+}
+
+.about-1,
+.about-2 {
+    padding-bottom: 80px;
+}
+
+.about-2 .about-img {
+    order: 1;
+}
+
+.about-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-text {
+    padding-top: 50px;
+}
+
+.work-process {
+    background-image: url(../images/work-process-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+}
+
+.work-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 40px 300px;
+}
+
+.work-card {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    width: 14%;
+    height: 200px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 2px 5px #e7dede45;
+}
+
+.testimonails {
+    padding: 70px;
+}
+
+.test-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 30px;
+
+}
+
+.test-card {
+    background-color: rgba(169, 169, 169, 0.257);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.test-card>img {
+    margin: auto;
+    width: 40px;
+}
+
+.test-card>p {
+    padding: 10px 20px;
+}
+
+.card-info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.card-info img {
+    width: 70px;
+    margin-right: 20px;
+}
+
+.card-info p {
+    color: red;
+}
